@@ -6,14 +6,15 @@
 /*   By: edelage <edelage@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/31 18:32:57 by edelage           #+#    #+#             */
-/*   Updated: 2022/09/03 15:57:08 by edelage          ###   ########.fr       */
+/*   Updated: 2022/09/03 17:32:29 by edelage          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-# define DEAD		'.'
+# define DEAD		' '
 # define ALIVE		'O'
+# define NB_GEN		100
 # define TIME2GEN	200000
 # define DENSITY	10
 # include <unistd.h>
